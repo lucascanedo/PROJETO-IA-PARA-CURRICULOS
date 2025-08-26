@@ -28,4 +28,14 @@ class AnalyseDatabase(TinyDB):
         result = self.resums.search(resum.job_id == job_id)
         return result
     
+    def delete_all_resums_by_job_id(self, job_id):
+        resum = Query()
+        self.resums.remove(resum.job_id == job_id)
+
+    def delete_all_analysis_by_job_id(self, job_id):
+        analysis = Query()
+        self.analysis.remove(analysis.job_id == job_id)
     
+    def delete_all_files_by_job_id(self, job_id):
+        file = Query()
+        self.files.remove(file.job_id == job_id)
