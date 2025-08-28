@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 class Resums(BaseModel):
-    id: str
+    resum_id: str
     job_id: str
     content: str
     opnion: str

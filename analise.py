@@ -24,7 +24,7 @@ for path in cv_path:
     
 
     resum_schema = Resums(
-        id=str(uuid.uuid4()),
+        resum_id=str(uuid.uuid4()),
         job_id=job.get('id'),
         content=resum,
         file=str(path),
@@ -36,7 +36,7 @@ for path in cv_path:
         job_id=job.get('id'),
     )
 
-    analysis_schema = extract_data_analysis(resum, job.get('id'), resum_schema.id, score)
+    analysis_schema = extract_data_analysis(resum, job.get('id'), resum_schema.resum_id, score)
 
     database.resums.insert(resum_schema.model_dump())
     database.analysis.insert(analysis_schema.model_dump())

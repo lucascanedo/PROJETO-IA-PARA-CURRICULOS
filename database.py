@@ -15,7 +15,7 @@ class AnalyseDatabase(TinyDB):
     
     def get_resum_by_id(self, id):
         resum = Query()
-        result = self.resums.search(resum.id == id)
+        result = self.resums.search(resum.resum_id == id)
         return result[0] if result else None
     
     def get_analysis_by_job_id(self, job_id):

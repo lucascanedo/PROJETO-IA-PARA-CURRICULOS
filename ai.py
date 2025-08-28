@@ -6,7 +6,7 @@ load_dotenv()
 
 
 class GroqClient:
-    def __init__(self, model_id='llama-3.3-70b-versatile') -> None:
+    def __init__(self, model_id='openai/gpt-oss-120b') -> None:
         self.model_id= model_id
         self.client = ChatGroq(model=self.model_id)
 
