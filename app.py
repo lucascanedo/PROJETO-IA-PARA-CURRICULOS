@@ -28,7 +28,7 @@ if option:
             'skills',
             'language',
             'score',
-            'resume_id',
+            'resum_id',
             'id'
         ]
     )
@@ -45,7 +45,7 @@ if option:
             'skills': 'Habilidades',
             'language': 'Idiomas',
             'score': 'Score',
-            'resume_id': 'Resum ID',
+            'resum_id': 'Resum ID',
             'id': 'ID'
         }, inplace=True
     )
@@ -66,7 +66,7 @@ if option:
         df,
         gridOptions=grid_options,
         enable_enterprise_modules=True,
-        update_mode=GridUpdateMode.COLUMN_CHANGED,
+        update_mode=GridUpdateMode.SELECTION_CHANGED,
         theme='streamlit'
     )
 
