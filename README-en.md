@@ -32,6 +32,7 @@ Link for access: https://curriculo-analyzer.streamlit.app/
 
 ## 📂 Project Structure
 
+```
 ├── ai.py # Core AI logic
 ├── analise.py # Resume vs job description analysis functions
 ├── app.py # Frontend interface (Streamlit)
@@ -41,10 +42,11 @@ Link for access: https://curriculo-analyzer.streamlit.app/
 ├── helper.py # Utility functions
 ├── db.json # Local database (MVP)
 ├── pyproject.toml # Project dependencies
-├── README-ptbr.md # Documentation (PT-BR)
+├── README.md # Documentation (PT-BR)
 ├── README-en.md # Documentation (EN)
 ├── MODELS/ # Database schema files
 
+```
 ---
 
 ## 🔑 Setup Notes
