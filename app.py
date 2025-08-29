@@ -55,7 +55,7 @@ if option:
 
     if data:
         gb.configure_column('Score', header_name='Score', sort='desc')
-        gb.configure_selection(selection_mode='multiple', use_checkbox=True)
+        gb.configure_selection(selection_mode='single', use_checkbox=True)
 
     grid_options = gb.build()
 
@@ -81,10 +81,10 @@ if option:
             if os.path.isfile(path):
                 os.remove(path)
 
-    if st.button('Limpar analise'):
-        database.delete_all_resums_by_job_id(job.get('id'))
-        database.delete_all_analysis_by_job_id(job.get('id'))
-        database.delete_all_files_by_job_id(job.get('id'))
+    #if st.button('Limpar analise'):
+    #   database.delete_all_resums_by_job_id(job.get('id'))
+    #   database.delete_all_analysis_by_job_id(job.get('id'))
+    #   database.delete_all_files_by_job_id(job.get('id'))
 
     if not candidates_df.empty:
         cols = st.columns(len(candidates_df))
