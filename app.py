@@ -97,9 +97,9 @@ if option:
                     with open(resums_data.get('file'), 'rb') as file:
                         pdf_data = file.read()
 
-                        st.download_button(
-                            label=f"Download Curriculo {row[1]['Nome']}",
-                            data=pdf_data,
-                            file_name=f"{row[1]['Nome']}.pdf",
-                            mime='application/pdf'
-                        )
+                        #st.download_button(
+                        #    label=f"Download Curriculo {row[1]['Nome']}",
+                        #    data=pdf_data,
+                        #    file_name=f"{row[1]['Nome']}.pdf",
+                        #    mime='application/pdf'
+                        #)
