@@ -44,7 +44,6 @@ Link for access: https://curriculo-analyzer.streamlit.app/
 ├── README-en.md       # Documentation (EN)
 ├── MODELS/            # Database schema files
 
-
 ---
 
 ## 🔑 Setup Notes
