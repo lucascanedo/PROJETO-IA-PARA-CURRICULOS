@@ -2,7 +2,7 @@
 
 This project is an MVP (Minimum Viable Product) of a resume analysis system using generative AI.  
 The goal is to help HR managers compare candidate resumes with a job description and generate a match analysis, highlighting each candidate's strengths and weaknesses.
--Link for access: https://curriculo-analyzer.streamlit.app/
+Link for access: https://curriculo-analyzer.streamlit.app/
 
 ---
 
