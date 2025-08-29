@@ -33,27 +33,16 @@ Link for access: https://curriculo-analyzer.streamlit.app/
 ## 📂 Project Structure
 
 ├── ai.py # Core AI logic
-
 ├── analise.py # Resume vs job description analysis functions
-
 ├── app.py # Frontend interface (Streamlit)
-
 ├── create_job.py # Job description registration
-
 ├── database.py # Database handler (db.json)
-
 ├── download_cv.py # Google Drive integration
-
 ├── helper.py # Utility functions
-
 ├── db.json # Local database (MVP)
-
 ├── pyproject.toml # Project dependencies
-
-├── README.md # Documentation (PT-BR)
-
+├── README-ptbr.md # Documentation (PT-BR)
 ├── README-en.md # Documentation (EN)
-
 ├── MODELS/ # Database schema files
 
 ---
