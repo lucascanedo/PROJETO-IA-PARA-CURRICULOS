@@ -90,7 +90,7 @@ if option:
         cols = st.columns(len(candidates_df))
         for idx, row in enumerate(candidates_df.iterrows()):
             with st.container():
-                if resums_data := database.get_resum_by_id(row[1]['resum_id']):
+                if resums_data := database.get_resum_by_id(row[1]['Resum ID']):
                     st.markdown(resums_data.get('content'))
                     st.markdown(resums_data.get('opnion'))
 
