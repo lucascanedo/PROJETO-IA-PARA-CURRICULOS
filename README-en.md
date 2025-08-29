@@ -1,8 +1,9 @@
 # 🤖 AI-Powered Resume Analysis System
 
 This project is an MVP (Minimum Viable Product) of a resume analysis system using generative AI.  
-The goal is to help HR managers compare candidate resumes with a job description and generate a match analysis, highlighting each candidate's strengths and weaknesses.
-Link for access: https://curriculo-analyzer.streamlit.app/
+The goal is to help HR managers compare candidate resumes with a job description and generate a match analysis, highlighting each candidate's strengths and weaknesses.  
+
+🔗 Link for access: [curriculo-analyzer.streamlit.app](https://curriculo-analyzer.streamlit.app/)
 
 ---
 
@@ -31,6 +32,7 @@ Link for access: https://curriculo-analyzer.streamlit.app/
 ---
 
 ## 📂 Project Structure
+```bash
 ├── ai.py              # Core AI logic
 ├── analise.py         # Resume vs job description analysis functions
 ├── app.py             # Frontend interface (Streamlit)
@@ -46,11 +48,13 @@ Link for access: https://curriculo-analyzer.streamlit.app/
 
 ---
 
-## 🔑 Setup Notes
-To use Google Drive API, you must create a **JSON credentials file** from Google Cloud and save it in your project.  
-This file will allow the system to authenticate and fetch resumes directly from your Drive folder.  
+🔑 Setup Notes
+
+To use Google Drive API, you must create a JSON credentials file from Google Cloud and save it in your project.
+This file will allow the system to authenticate and fetch resumes directly from your Drive folder.
 
 ---
 
-## 🌐 Demo
-The MVP is deployed on **Streamlit Cloud** and integrates with **Google Drive** for real-time resume analysis.  
+🌐 Demo
+
+The MVP is deployed on Streamlit Cloud and integrates with Google Drive for real-time resume analysis.
