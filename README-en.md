@@ -31,7 +31,6 @@ Link for access: https://curriculo-analyzer.streamlit.app/
 ---
 
 ## 📂 Project Structure
-
 ├── ai.py              # Core AI logic
 ├── analise.py         # Resume vs job description analysis functions
 ├── app.py             # Frontend interface (Streamlit)
