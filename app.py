@@ -94,8 +94,8 @@ if option:
                     st.markdown(resums_data.get('content'))
                     st.markdown(resums_data.get('opnion'))
 
-                    with open(resums_data.get('file'), 'rb') as file:
-                        pdf_data = file.read()
+                    #with open(resums_data.get('file'), 'rb') as file:
+                    #    pdf_data = file.read()
 
                         #st.download_button(
                         #    label=f"Download Curriculo {row[1]['Nome']}",
