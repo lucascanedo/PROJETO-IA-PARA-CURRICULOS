@@ -57,4 +57,4 @@ This file will allow the system to authenticate and fetch resumes directly from 
 
 🌐 Demo
 
-The MVP is deployed on Streamlit Cloud and integrates with Google Drive for real-time resume analysis.
+The MVP is deployed on Streamlit Cloud and integrates with Google Drive for real-time resume analysis.,
