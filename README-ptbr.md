@@ -1,7 +1,7 @@
 # 🤖 Sistema de Análise de Currículos com IA
 
 Este projeto é um MVP (Minimum Viable Product) de um sistema de análise de currículos utilizando **IA generativa**.  
-O objetivo é ajudar gestores de RH a comparar currículos de candidatos com uma descrição de vaga e gerar uma análise de aderência, destacando os pontos fortes e fracos de cada candidato.  
+O objetivo é ajudar gestores de RH a comparar currículos de candidatos com uma descrição de vaga e gerar uma análise de aderência, destacando os pontos fortes e fracos de cada candidato.
 
 🔗 **Link de acesso**: [curriculo-analyzer.streamlit.app](https://curriculo-analyzer.streamlit.app/)
 
